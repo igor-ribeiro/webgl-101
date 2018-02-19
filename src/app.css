@@ -1,0 +1,25 @@
+:root {
+  --canvas-size: 300px;
+}
+
+html,
+body,
+.app {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #333;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas {
+  width: var(--canvas-size);
+  height: var(--canvas-size);
+  // background: #fff;
+}
